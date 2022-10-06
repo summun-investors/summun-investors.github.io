@@ -1,0 +1,38 @@
+.summun-container {
+  display: flex;
+  width: 100%;
+}
+
+.summun-link--red {
+  color: red;
+}
+
+.summun-link--orange {
+  color: orange;
+}
+
+.summun-center {
+  padding-top: 1.5em;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.summun-image {
+  flex-grow: 0;
+  min-width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.summun-title {
+  margin-bottom: 1em;
+}
+
+.summun-text {
+  flex-grow: 1;
+  padding: 0 4em;
+}
+
+.summun-text p {
+  margin-top: 0;
+}
